@@ -5,20 +5,24 @@ slides and code for the geospatial datascience lecture in myanmar
 ## Setup
 1. create a conda environment and install the requirements
 ```sh
-$ conda env create -f environment.yml
+$ conda env create myanmar_geo
 ```
 2. activate the environment
 ```sh
-$ conda activate myanmar
+$ conda activate myanmar_geo
 ```
-3. install the notebook extensions(you need node and npm)
+3. install requirements
+```sh
+$ pip install -r requirements.txt
+```
+4. install the notebook extensions(you need node and npm)
 
 ```sh
 $ jupyter nbextension install --py --sys-prefix keplergl # can be skipped for notebook 5.3 and above
 $ jupyter nbextension enable --py --sys-prefix keplergl # can be skipped for notebook 5.3 and above
 $ jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 ```
-4. run the jupyter notebook
+5. run the jupyter notebook
 ```sh
 $ jupyter notebook
 ```
