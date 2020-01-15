@@ -3,13 +3,13 @@
 slides and code for the geospatial datascience lecture in myanmar
 
 ## Setup
-1. create a conda environment and install the requirements
+1. create an environment and install the requirements
 ```sh
-$ conda create -n myanmar_geo
+$ python3 -m venv myanmar_geo
 ```
 2. activate the environment
 ```sh
-$ conda activate myanmar_geo
+$ source myanmar_geo/bin/activate
 ```
 3. install requirements
 ```sh
