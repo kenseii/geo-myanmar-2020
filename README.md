@@ -3,6 +3,11 @@
 slides and code for the geospatial datascience lecture in myanmar
 
 ## Setup
+0. if you dont have the Rtree installed please install it this way.
+```sh
+$ sudo apt install python3-rtree
+```
+
 1. create an environment and install the requirements
 ```sh
 $ python3 -m venv myanmar_geo
@@ -25,4 +30,9 @@ $ jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupy
 5. run the jupyter notebook
 ```sh
 $ jupyter notebook
+```
+
+Note: you may need to update jupyter related libraries like jupyter-console...
+```sh
+$ pip install --upgrade --force-reinstall jupyter-console
 ```
