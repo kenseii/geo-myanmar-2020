@@ -56,7 +56,7 @@ seaborn==0.9.0
 Shapely==1.6.4.post2
 tqdm==4.41.1
 unicodecsv==0.14.1
-urllib3==1.25.7
+urllib3==1.25.8
 webencodings==0.5.1
 Werkzeug==0.16.0
 widgetsnbextension==3.5.1
