@@ -3,7 +3,7 @@ boto==2.49.0
 descartes==1.1.0
 ee==0.2
 Fiona==1.8.13
-Flask==1.1.1
+Flask==2.3.2
 folium==0.10.1
 geographiclib==1.50
 geopandas==0.6.2
