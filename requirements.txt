@@ -2,7 +2,7 @@ bokeh==1.2.0
 boto==2.49.0
 descartes==1.1.0
 ee==0.2
-Fiona==1.8.13
+Fiona==1.10.0rc1
 Flask==2.3.2
 folium==0.10.1
 geographiclib==1.50
